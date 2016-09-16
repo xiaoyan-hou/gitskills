@@ -1,0 +1,12 @@
+git  cd path   // 进入一个路径
+/*   修改一个文件 */ 
+git add filename
+git commit -m “options”
+/* 查看文件修改记录 */ 
+git  log
+/* 查看命令历史 */
+git reflog
+/* 创建和合并分支 
+分支 name “dev”  */ 
+$ git checkout -b dev
+enter 之后 ：Switched to a new branch 'dev'
