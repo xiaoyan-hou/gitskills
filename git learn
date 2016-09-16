@@ -1,5 +1,6 @@
-git  cd path   // 进入一个路径
-/*   修改一个文件 */ 
+$  cd path   // 进入一个路径, 但是注意路径名字间隔 用‘/’ 不能用'\' ,否则无法识别 ，并且也不能使用中文
+$ git init folder name  // 新建一个本地仓库，该仓库以cd 的path为根目录，如果没有cd 则是默认的，比如我windows下就是 c/users/hqy
+/*  将 修改的一个文件提交 */ 
 git add filename
 git commit -m “options”
 /* 查看文件修改记录 */ 
